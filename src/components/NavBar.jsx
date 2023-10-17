@@ -1,5 +1,6 @@
 import React from "react";
 import CartWidget from "./CartWidget.jsx";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
 
@@ -10,24 +11,18 @@ const navStyle = {
     return (
         <nav style={navStyle} className="navbar navbar-expand-lg navbar-light">
             <div className="container">
-                <a className="navbar-brand" href="/"><img src="../src/assets/logofulanos.webp" alt="" /></a>
+                <Link className="navbar-brand" to="/"><img src="../src/assets/logofulanos.webp" alt="" /></Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
-                    <li className="nav-item">
-                        <a className="nav-link" href="/sale">SALE 2023</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/productos">Productos</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/condiciones-de-venta">Condiciones de venta</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/contacto">Contacto</a>
-                    </li>
+                    <li className="nav-item"><Link className="nav-link" to="/">Inicio</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/productos">Productos</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/productos/maxibuzos">Maxi Buzos</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/productos/remerones">Remerones</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/productos/vestidos">Vestidos</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/condiciones-de-venta">Condiciones de venta</Link></li>
                 </ul>
             </div>
             <CartWidget />

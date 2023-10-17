@@ -14,3 +14,46 @@ html,
   color: #FCE09B;
   font-size: larger
 }
+#titulo{
+  text-align: center;
+}
+
+#productos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.tarjetaProducto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 2px;
+  width: 300px;
+  height: 250px;
+  border: 2px #3f3f41 solid;
+  border-radius: 15px;
+}
+
+.tarjetaProducto img {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.ver-mas{
+  background-color: #3f3f41;
+  color: #FCE09B;
+  border-radius: 5px;
+}
