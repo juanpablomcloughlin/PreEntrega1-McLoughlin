@@ -4,10 +4,11 @@ export const pedirProductos = () => {
     return new Promise ((resolve, reject) => {
         setTimeout(() => {
             resolve (data);
-        }, 500)
-
+        }, 500) 
     })
 }
+
+export default pedirProductos
 
 export const pedirItemPorId = (id) => {
     return new Promise ((resolve, reject) => {
@@ -23,5 +24,3 @@ export const pedirItemPorId = (id) => {
         }
     })
 }
-
-export default pedirProductos

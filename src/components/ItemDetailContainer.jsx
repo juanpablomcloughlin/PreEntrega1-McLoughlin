@@ -15,7 +15,7 @@ function ItemDetailContainer() {
             })
     }, [id])
     
-  return (
+    return (
     <div>
         {item && <ItemDetail item={item} />}
     </div>
