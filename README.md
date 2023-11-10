@@ -12,7 +12,7 @@ A través de la app se podrá realizar el camino para poder adquirir productos d
 
 ### Capturas de pantalla
 
-![Página principal](https://drive.google.com/file/d/1O9Zve1KpO0Jhm1wmHaewMgEmsqR7wsXd/view?usp=drive_link)
+![Página principal](https://github.com/juanpablomcloughlin/ProyectoFinal-ReactJS-McLoughlin/blob/46efd109dee1896774aab7605fa798445785880b/src/assets/image.png)
 ![Página del carrito](https://drive.google.com/file/d/1isqgo_RFfclCBJH5wY0T5vxgzwUZipOW/view?usp=drive_link)
 ![Página compra finalizada](https://drive.google.com/file/d/17MHpxxwwetBviLxfpyXMkWFw8tURnd3d/view?usp=drive_link)
 
