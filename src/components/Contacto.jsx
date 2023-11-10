@@ -1,11 +1,11 @@
-import { useForm } from "react-hook-form";
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { useForm } from "react-hook-form"
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function Contacto() {
 
     const { register, handleSubmit } = useForm ()
-    const enviar = (form) => {
+    const enviar = () => {
         toast.success('El formulario se registró con éxito', {
             position: 'bottom-right',
             autoClose: 3000, 

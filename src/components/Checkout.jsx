@@ -1,8 +1,10 @@
 import React, { useContext, useState } from 'react'
-import { CartContext } from './context/CartContext';
-import { useForm } from 'react-hook-form';
-import { collection, addDoc } from 'firebase/firestore';
-import { db } from '../firebaseConfig';
+import { CartContext } from './context/CartContext'
+import { useForm } from 'react-hook-form'
+import { collection, addDoc } from 'firebase/firestore'
+import { db } from '../firebaseConfig'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function Checkout() {
 
@@ -23,6 +25,17 @@ function Checkout() {
             .then((doc) => {
                 setPedidoId(doc.id)
                 vaciarCarrito()
+            })
+            .catch((error) =>{
+                toast.error(`Error al procesar la compra: ${error.message}`, {
+                    position: "bottom-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                })
             })
     }
 

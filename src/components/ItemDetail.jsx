@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import ItemCount from './ItemCount'
 import { CartContext } from './context/CartContext'
 import { useContext } from 'react'
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const ItemDetail = ( {item} ) => {
 
