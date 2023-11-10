@@ -10,7 +10,7 @@ const footerStyle = {
 
 return (
     <footer style={footerStyle}>
-        <div className="container">
+        <div>
             <p>&copy; 2023 Fulanos Underwear. Todos los derechos reservados.</p>
         </div>
     </footer>

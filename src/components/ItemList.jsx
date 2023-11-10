@@ -1,10 +1,10 @@
 import React from 'react'
 import Item from './Item'
 
-function ItemList({productos}) {
+function ItemList({productos, titulo}) {
   return (
     <div>
-        <h1 id='titulo'>Productos</h1>
+        <h1 id='titulo'>{titulo}</h1>
         <div id='productos'>
             {
                 productos.length > 0 && 
