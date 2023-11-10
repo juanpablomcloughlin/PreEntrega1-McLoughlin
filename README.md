@@ -8,13 +8,13 @@ A través de la app se podrá realizar el camino para poder adquirir productos d
 
 ### Demo
 
-![Demostración](https://drive.google.com/file/d/1-SNyNA-dyHdegvdcw9R6B2MUpQbFi9pX/view?usp=drive_link)
+![Demostración](https://github.com/juanpablomcloughlin/ProyectoFinal-ReactJS-McLoughlin/blob/412d7f2c159855f0d4c3b524ce1f90aed0f5a6de/src/assets/ProyectoFinal%2BMcLoughlin.mp4)
 
 ### Capturas de pantalla
 
 ![Página principal](https://github.com/juanpablomcloughlin/ProyectoFinal-ReactJS-McLoughlin/blob/46efd109dee1896774aab7605fa798445785880b/src/assets/image.png)
-![Página del carrito](https://drive.google.com/file/d/1isqgo_RFfclCBJH5wY0T5vxgzwUZipOW/view?usp=drive_link)
-![Página compra finalizada](https://drive.google.com/file/d/17MHpxxwwetBviLxfpyXMkWFw8tURnd3d/view?usp=drive_link)
+![Página del carrito](https://github.com/juanpablomcloughlin/ProyectoFinal-ReactJS-McLoughlin/blob/412d7f2c159855f0d4c3b524ce1f90aed0f5a6de/src/assets/image2.png)
+![Página compra finalizada](https://github.com/juanpablomcloughlin/ProyectoFinal-ReactJS-McLoughlin/blob/412d7f2c159855f0d4c3b524ce1f90aed0f5a6de/src/assets/image3.png)
 
 ## Instalación
 
