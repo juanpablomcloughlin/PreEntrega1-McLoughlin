@@ -8,13 +8,13 @@ A través de la app se podrá realizar el camino para poder adquirir productos d
 
 ### Demo
 
-![Demostración](/ProyectoFinal+McLoughlin/src/assets/ProyectoFinal+McLoughlin.mp4)
+![Demostración](https://drive.google.com/file/d/1-SNyNA-dyHdegvdcw9R6B2MUpQbFi9pX/view?usp=drive_link)
 
 ### Capturas de pantalla
 
-![Página principal](/ProyectoFinal+McLoughlin/src/assets/image.pngimage.png)
-![Página del carrito](/ProyectoFinal+McLoughlin/src/assets/image2.png)
-![Página compra finalizada](/ProyectoFinal+McLoughlin/src/assets/image3.png)
+![Página principal](https://drive.google.com/file/d/1O9Zve1KpO0Jhm1wmHaewMgEmsqR7wsXd/view?usp=drive_link)
+![Página del carrito](https://drive.google.com/file/d/1isqgo_RFfclCBJH5wY0T5vxgzwUZipOW/view?usp=drive_link)
+![Página compra finalizada](https://drive.google.com/file/d/17MHpxxwwetBviLxfpyXMkWFw8tURnd3d/view?usp=drive_link)
 
 ## Instalación
 
